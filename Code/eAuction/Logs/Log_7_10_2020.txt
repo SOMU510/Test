@@ -1,0 +1,94 @@
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 10/7/2020 12:35:16 PM
+Before Login error.
+=============
+System.Web.HttpException (0x80004005): This is an invalid webresource request.
+   at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 10/7/2020 12:38:36 PM
+Employee Name :- Wipro  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_IU_Auction' expects parameter '@Grace_Period_In_Minutes', which was not supplied.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 07-Oct-2020\Code\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.AuctionStatusPartyWise.btnAccept_Click(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 07-Oct-2020\Code\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 193
+ClientConnectionId:672966e6-2734-4a50-883f-3fb51adb932e
+Error Number:201,State:4,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 10/7/2020 12:42:15 PM
+Employee Name :- Wipro  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_IU_Auction' expects parameter '@Grace_Period_In_Minutes', which was not supplied.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname)
+   at eAuction.AuctionStatusPartyWise.btnAccept_Click(Object sender, EventArgs e)
+ClientConnectionId:672966e6-2734-4a50-883f-3fb51adb932e
+Error Number:201,State:4,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Employee Master   ,Screen Name :- YCS.Notification  ,Date Time :- 10/7/2020 12:51:13 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Net.WebException: The remote server returned an error: (502) Bad Gateway.
+   at System.Net.HttpWebRequest.GetResponse()
+   at YCS.Notification.SendSMS(String mobileNo, String message, Boolean throwException) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 07-Oct-2020\Code\eAuction\Classes\General\Notification.cs:line 211
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Employee Master   ,Screen Name :- ASP.eauction_employeemaster_aspx  ,Date Time :- 10/7/2020 12:56:21 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__TBLMST_L__D7886B864F526D27'. Cannot insert duplicate key in object 'dbo.TBLMST_LOGIN_USER'. The duplicate key value is (Alok.sharma@ycsin.com).
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 07-Oct-2020\Code\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.EmployeeMaster.btnSave_Click(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 07-Oct-2020\Code\eAuction\EAuction\EmployeeMaster.aspx.cs:line 486
+ClientConnectionId:a1406948-729b-4475-8e90-700ef63cc597
+Error Number:2627,State:1,Class:14
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Employee Master   ,Screen Name :- ASP.eauction_employeemaster_aspx  ,Date Time :- 10/7/2020 12:57:23 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__TBLMST_L__D7886B864F526D27'. Cannot insert duplicate key in object 'dbo.TBLMST_LOGIN_USER'. The duplicate key value is (Alok.sharma@ycsin.com).
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 07-Oct-2020\Code\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.EmployeeMaster.btnSave_Click(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 07-Oct-2020\Code\eAuction\EAuction\EmployeeMaster.aspx.cs:line 486
+ClientConnectionId:a1406948-729b-4475-8e90-700ef63cc597
+Error Number:2627,State:1,Class:14
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Employee Master   ,Screen Name :- YCS.Notification  ,Date Time :- 10/7/2020 12:57:50 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Net.WebException: The remote server returned an error: (502) Bad Gateway.
+   at System.Net.HttpWebRequest.GetResponse()
+   at YCS.Notification.SendSMS(String mobileNo, String message, Boolean throwException) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 07-Oct-2020\Code\eAuction\Classes\General\Notification.cs:line 211
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 10/7/2020 1:33:27 PM
+Before Login error.
+=============
+System.Web.HttpException (0x80004005): This is an invalid webresource request.
+   at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 10/7/2020 1:42:40 PM
+Before Login error.
+=============
+System.Web.HttpException (0x80004005): This is an invalid webresource request.
+   at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Party Master   ,Screen Name :- YCS.Notification  ,Date Time :- 10/7/2020 3:29:25 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Net.WebException: The remote server returned an error: (502) Bad Gateway.
+   at System.Net.HttpWebRequest.GetResponse()
+   at YCS.Notification.SendSMS(String mobileNo, String message, Boolean throwException) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 07-Oct-2020\Code\eAuction\Classes\General\Notification.cs:line 211
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  

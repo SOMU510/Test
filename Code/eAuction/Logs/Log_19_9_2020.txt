@@ -1,0 +1,148 @@
+Menu Name :-Document Master   ,Screen Name :- ASP.eauction_documentmaster_aspx  ,Date Time :- 19-09-2020 14:35:04
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Web.UI.Control.Focus()
+   at eAuction.DocumentMaster.btnSave_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\DocumentMaster.aspx.cs:line 124
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Document Master   ,Screen Name :- ASP.eauction_documentmaster_aspx  ,Date Time :- 19-09-2020 14:37:06
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Web.UI.Control.Focus()
+   at eAuction.DocumentMaster.btnSave_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\DocumentMaster.aspx.cs:line 123
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Document Master   ,Screen Name :- ASP.eauction_documentmaster_aspx  ,Date Time :- 19-09-2020 14:37:53
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Web.UI.Control.Focus()
+   at eAuction.DocumentMaster.btnSave_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\DocumentMaster.aspx.cs:line 123
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Document Master   ,Screen Name :- ASP.eauction_documentmaster_aspx  ,Date Time :- 19-09-2020 14:52:43
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Web.UI.Control.Focus()
+   at eAuction.DocumentMaster.btnSave_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\DocumentMaster.aspx.cs:line 226
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Role Master   ,Screen Name :- ASP.eauction_rolemaster_aspx  ,Date Time :- 19-09-2020 18:40:10
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Web.UI.Control.Focus()
+   at eAuction.RoleMaster.btnSave_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\RoleMaster.aspx.cs:line 186
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-City Master   ,Screen Name :- ASP.eauction_citymaster_aspx  ,Date Time :- 19-09-2020 18:59:54
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_IU_City' expects parameter '@Firm_Id', which was not supplied.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.CityMaster.btnSave_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\CityMaster.aspx.cs:line 163
+ClientConnectionId:01777aad-4836-42ee-9fd5-5a92802dfc5d
+Error Number:201,State:4,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-City Master   ,Screen Name :- ASP.eauction_citymaster_aspx  ,Date Time :- 19-09-2020 19:01:30
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Firm_Id'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.eauction_citymaster_aspx.__DataBinding__control36(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\CityMaster.aspx:line 100
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at CallSite.Target(Closure , CallSite , Object )
+   at YCS.DBCommon.Bind_Control(Object control, DataTable dt, Boolean insertdefault, String dataValueField, String dataTextField) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\Classes\DB\DBCommon.cs:line 81
+   at CallSite.Target(Closure , CallSite , DBCommon , Object , DataTable , Boolean , String , String )
+   at YCS.MasterCollection.BindCity(Int64 City_Id, Int64 State_Id, Int64 Status_Id, Object control, Boolean insertdefault) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\Classes\General\MasterCollection.cs:line 409
+   at eAuction.CityMaster._Bind_Control() in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\CityMaster.aspx.cs:line 85
+   at eAuction.CityMaster.Page_Load(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\CityMaster.aspx.cs:line 41
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Unit Master   ,Screen Name :- ASP.eauction_unitmaster_aspx  ,Date Time :- 19-09-2020 19:21:04
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Web.UI.Control.Focus()
+   at eAuction.UnitMaster.btnSave_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\UnitMaster.aspx.cs:line 178
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Company Type Master   ,Screen Name :- ASP.eauction_companytypemaster_aspx  ,Date Time :- 19-09-2020 19:33:20
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at eAuction.CompanyTypeMaster.grdData_RowCommand(Object sender, GridViewCommandEventArgs e) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\CompanyTypeMaster.aspx.cs:line 258
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Company Type Master   ,Screen Name :- ASP.eauction_companytypemaster_aspx  ,Date Time :- 19-09-2020 19:45:33
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Web.UI.Control.Focus()
+   at eAuction.CompanyTypeMaster.btnSave_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\CompanyTypeMaster.aspx.cs:line 177
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Currency Master   ,Screen Name :- ASP.eauction_currencymaster_aspx  ,Date Time :- 19-09-2020 19:49:14
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Web.UI.Control.Focus()
+   at eAuction.CurrencyMaster.btnSave_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\CurrencyMaster.aspx.cs:line 178
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Currency Master   ,Screen Name :- ASP.eauction_currencymaster_aspx  ,Date Time :- 19-09-2020 19:49:30
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Web.UI.Control.Focus()
+   at eAuction.CurrencyMaster.btnSave_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\CurrencyMaster.aspx.cs:line 178
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Role Menu Linking   ,Screen Name :- ASP.eauction_rolemenulinking_aspx  ,Date Time :- 19-09-2020 19:57:36
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.TBLMST_ROLE_MENU_RIGHT'.
+   at YCS.DataConnection.GetDatatableSP(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\Classes\DB\DataConnection.cs:line 95
+   at YCS.MasterCollection.BindRoleMenuRight(Int64 RoleMenuRightId, Int64 statusId, Object control, Boolean insertdefault, Int64 RoleId, Int64 FirmId, Int64 MenuId) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\Classes\General\MasterCollection.cs:line 147
+   at eAuction.RoleMenuLinking.RoleMenuRightGrid_Bind() in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\RoleMenuLinking.aspx.cs:line 232
+   at eAuction.RoleMenuLinking.ddlRoleName_SelectedIndexChanged(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\RoleMenuLinking.aspx.cs:line 85
+ClientConnectionId:85912c14-fcb3-4543-8f0f-e6ebef9ed125
+Error Number:208,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Role Menu Linking   ,Screen Name :- ASP.eauction_rolemenulinking_aspx  ,Date Time :- 19-09-2020 20:45:50
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.TBLMST_ROLE_MENU_RIGHT'.
+   at YCS.DataConnection.GetDatatableSP(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\Classes\DB\DataConnection.cs:line 95
+   at YCS.MasterCollection.BindRoleMenuRight(Int64 RoleMenuRightId, Int64 statusId, Object control, Boolean insertdefault, Int64 RoleId, Int64 FirmId, Int64 MenuId) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\Classes\General\MasterCollection.cs:line 147
+   at eAuction.RoleMenuLinking.RoleMenuRightGrid_Bind() in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\RoleMenuLinking.aspx.cs:line 234
+   at eAuction.RoleMenuLinking.ddlRoleName_SelectedIndexChanged(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\19-Sep-2020\eAuction\EAuction\RoleMenuLinking.aspx.cs:line 85
+ClientConnectionId:3eb1742e-1e89-48c0-93df-2bcc47d5ff17
+Error Number:208,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  

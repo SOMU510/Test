@@ -1,0 +1,35 @@
+Menu Name :-State Master   ,Screen Name :- ASP.eauction_statemaster_aspx  ,Date Time :- 18-09-2020 14:35:25
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Firm_Id'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.eauction_statemaster_aspx.__DataBinding__control30(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\18-Sep-2020\eAuction\EAuction\StateMaster.aspx:line 88
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at CallSite.Target(Closure , CallSite , Object )
+   at YCS.DBCommon.Bind_Control(Object control, DataTable dt, Boolean insertdefault, String dataValueField, String dataTextField) in E:\Shailendra\Auction Portal\Code\18-Sep-2020\eAuction\Classes\DB\DBCommon.cs:line 81
+   at CallSite.Target(Closure , CallSite , DBCommon , Object , DataTable , Boolean , String , String )
+   at YCS.MasterCollection.BindState(Int64 State_Id, Int64 Status_Id, Object control, Boolean insertdefault) in E:\Shailendra\Auction Portal\Code\18-Sep-2020\eAuction\Classes\General\MasterCollection.cs:line 391
+   at eAuction.StateMaster._Bind_Control() in E:\Shailendra\Auction Portal\Code\18-Sep-2020\eAuction\EAuction\StateMaster.aspx.cs:line 80
+   at eAuction.StateMaster.Page_Load(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\18-Sep-2020\eAuction\EAuction\StateMaster.aspx.cs:line 39
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  

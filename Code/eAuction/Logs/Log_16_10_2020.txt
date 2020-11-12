@@ -1,0 +1,18 @@
+Menu Name :-Create Auction   ,Screen Name :- ASP.eauction_createauction_aspx  ,Date Time :- 10/16/2020 2:24:52 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.ArgumentException: Column 'Auction_Status_Id' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at eAuction.CreateAuction.DispalyDB_Data(Int64 AuctionId, String CallFrom, Int32 rowid) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 16-Oct-2020\Code\eAuction\EAuction\CreateAuction.aspx.cs:line 1701
+   at eAuction.CreateAuction.grdData_RowCommand(Object sender, GridViewCommandEventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 16-Oct-2020\Code\eAuction\EAuction\CreateAuction.aspx.cs:line 1893
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Create Auction   ,Screen Name :- ASP.eauction_createauction_aspx  ,Date Time :- 10/16/2020 2:31:33 PM
+Employee Name :- Shekhar  ,Role :- Publisher
+=============
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at eAuction.CreateAuction.SaveData(Object sender, Int64 AuctionStatusId, String CallFrom)
+   at eAuction.CreateAuction.btnPublished_Click(Object sender, EventArgs e)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  

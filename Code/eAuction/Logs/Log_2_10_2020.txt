@@ -1,0 +1,112 @@
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 02-10-2020 14:19:36
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at YCS.FileSystem.GetActualImagePath(String dummyPath) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\Classes\DB\FileSystem.cs:line 664
+   at eAuction.AuctionStatusPartyWise.lnkBtnDownloadAttachment_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 1284
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 02-10-2020 14:19:41
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at YCS.FileSystem.GetActualImagePath(String dummyPath) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\Classes\DB\FileSystem.cs:line 664
+   at eAuction.AuctionStatusPartyWise.lnkBtnDownloadAttachment_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 1284
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 02-10-2020 14:20:27
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at YCS.FileSystem.GetActualImagePath(String dummyPath) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\Classes\DB\FileSystem.cs:line 664
+   at eAuction.AuctionStatusPartyWise.lnkBtnDownloadAttachment_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 1284
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 02-10-2020 14:20:41
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at YCS.FileSystem.GetActualImagePath(String dummyPath) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\Classes\DB\FileSystem.cs:line 664
+   at eAuction.AuctionStatusPartyWise.lnkBtnDownloadAttachment_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 1284
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 02-10-2020 14:21:30
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at YCS.FileSystem.GetActualImagePath(String dummyPath) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\Classes\DB\FileSystem.cs:line 664
+   at eAuction.AuctionStatusPartyWise.lnkBtnDownloadAttachment_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 1284
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 02-10-2020 14:22:09
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Web.HttpException (0x80004005): 'E:/Shailendra/Auction Portal/Code/02-Oct-2020/eAuction/UserDocuments/Document0/637372451374636495-7f73c70d-0ae4-4089-817d-ed936e5e6fd221464.jpeg' is a physical path, but a virtual path was expected.
+   at System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   at System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   at System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at YCS.FileSystem.DownloadFiles(List`1 objDownloadFile, String zipfoldername)
+   at eAuction.AuctionStatusPartyWise.lnkBtnDownloadAttachment_Click(Object sender, EventArgs e)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 02-10-2020 14:45:11
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.IO.FileNotFoundException: E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\UserDocuments\Document0\637372398256742844-80d79ebb-beb8-43d4-aeef-8127fc46231a27151.jpeg
+   at Ionic.Zip.SharedUtilities.GetFileLength(String fileName)
+   at Ionic.Zip.ZipEntry.MaybeUnsetCompressionMethodForWriting(Int32 cycle)
+   at Ionic.Zip.ZipEntry.WriteHeader(Stream s, Int32 cycle)
+   at Ionic.Zip.ZipEntry.Write(Stream s)
+   at Ionic.Zip.ZipFile.Save()
+   at Ionic.Zip.ZipFile.Save(Stream outputStream)
+   at YCS.FileSystem.DownloadFiles(List`1 objDownloadFile, String zipfoldername) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\Classes\DB\FileSystem.cs:line 556
+   at eAuction.AuctionStatusPartyWise.lnkBtnDownloadAttachment_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 1297
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 02-10-2020 14:50:14
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.IO.FileNotFoundException: E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\UserDocuments\Document0\637372398256742844-80d79ebb-beb8-43d4-aeef-8127fc46231a27151.jpeg
+   at Ionic.Zip.SharedUtilities.GetFileLength(String fileName)
+   at Ionic.Zip.ZipEntry.MaybeUnsetCompressionMethodForWriting(Int32 cycle)
+   at Ionic.Zip.ZipEntry.WriteHeader(Stream s, Int32 cycle)
+   at Ionic.Zip.ZipEntry.Write(Stream s)
+   at Ionic.Zip.ZipFile.Save()
+   at Ionic.Zip.ZipFile.Save(Stream outputStream)
+   at YCS.FileSystem.DownloadFiles(List`1 objDownloadFile, String zipfoldername) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\Classes\DB\FileSystem.cs:line 556
+   at eAuction.AuctionStatusPartyWise.lnkBtnDownloadAttachment_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 1297
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 02-10-2020 15:20:36
+Before Login error.
+=============
+System.Web.HttpCompileException (0x80004005): E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx(558): error CS0839: Argument missing
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  

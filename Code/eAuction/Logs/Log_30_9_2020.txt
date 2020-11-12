@@ -1,0 +1,143 @@
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 30-09-2020 17:17:17
+Before Login error.
+=============
+System.Web.HttpCompileException (0x80004005): E:\Shailendra\Auction Portal\Code\30-Sep-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx(125): error CS1061: 'eauction_auctionstatuspartywise_aspx' does not contain a definition for 'btnAutoUpdate_Click' and no extension method 'btnAutoUpdate_Click' accepting a first argument of type 'eauction_auctionstatuspartywise_aspx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 30-09-2020 17:21:14
+Before Login error.
+=============
+System.Web.HttpCompileException (0x80004005): E:\Shailendra\Auction Portal\Code\30-Sep-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx(125): error CS1061: 'eauction_auctionstatuspartywise_aspx' does not contain a definition for 'btnAutoUpdate_Click' and no extension method 'btnAutoUpdate_Click' accepting a first argument of type 'eauction_auctionstatuspartywise_aspx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 30-09-2020 18:59:48
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.ArgumentException: There are not enough fields in the Structured type.  Structured types must have at least one field.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\30-Sep-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.AuctionStatusPartyWise.btnAccept_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\30-Sep-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 689
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 30-09-2020 19:02:39
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.ArgumentException: There are not enough fields in the Structured type.  Structured types must have at least one field.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\30-Sep-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.AuctionStatusPartyWise.btnAccept_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\30-Sep-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 689
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 30-09-2020 19:03:30
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Status_Id', table '@Auction_Party'; column does not allow nulls. INSERT fails.
+The data for table-valued parameter "@Auction_Party" doesn't conform to the table type of the parameter.
+The statement has been terminated.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname)
+   at eAuction.AuctionStatusPartyWise.btnAccept_Click(Object sender, EventArgs e)
+ClientConnectionId:478c7394-7b8a-4f26-9ae5-85a3ac02b87f
+Error Number:515,State:2,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 30-09-2020 19:03:52
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Status_Id', table '@Auction_Party'; column does not allow nulls. INSERT fails.
+The data for table-valued parameter "@Auction_Party" doesn't conform to the table type of the parameter.
+The statement has been terminated.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname)
+   at eAuction.AuctionStatusPartyWise.btnAccept_Click(Object sender, EventArgs e)
+ClientConnectionId:478c7394-7b8a-4f26-9ae5-85a3ac02b87f
+Error Number:515,State:2,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 30-09-2020 19:07:58
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Status_Id', table '@Auction_Party'; column does not allow nulls. INSERT fails.
+The data for table-valued parameter "@Auction_Party" doesn't conform to the table type of the parameter.
+The statement has been terminated.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\30-Sep-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.AuctionStatusPartyWise.btnAccept_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\30-Sep-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 689
+ClientConnectionId:71998545-5c79-4217-ab84-66fb9e60b062
+Error Number:515,State:2,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 30-09-2020 19:09:28
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.ArgumentException: Column 'Remarks' does not belong to table Table2.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at eAuction.AuctionStatusPartyWise.btnAccept_Click(Object sender, EventArgs e)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 30-09-2020 19:09:48
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.ArgumentException: Column 'Status_Id' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at eAuction.AuctionStatusPartyWise.Fill_Update_Detail_Control(String auctionId)
+   at eAuction.AuctionStatusPartyWise.btnAccept_Click(Object sender, EventArgs e)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 30-09-2020 21:36:05
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): Arithmetic overflow error converting numeric to data type numeric.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\30-Sep-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.AuctionStatusPartyWise.grdAuctionItemList_RowCommand(Object sender, GridViewCommandEventArgs e) in E:\Shailendra\Auction Portal\Code\30-Sep-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 657
+ClientConnectionId:63ef4c98-664b-4d17-957d-3b549adcacc9
+Error Number:8115,State:8,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 30-09-2020 21:38:36
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): Arithmetic overflow error converting numeric to data type numeric.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\30-Sep-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.AuctionStatusPartyWise.grdAuctionItemList_RowCommand(Object sender, GridViewCommandEventArgs e) in E:\Shailendra\Auction Portal\Code\30-Sep-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 657
+ClientConnectionId:63ef4c98-664b-4d17-957d-3b549adcacc9
+Error Number:8115,State:8,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 30-09-2020 21:39:22
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): Arithmetic overflow error converting numeric to data type numeric.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname)
+   at eAuction.AuctionStatusPartyWise.grdAuctionItemList_RowCommand(Object sender, GridViewCommandEventArgs e)
+ClientConnectionId:63ef4c98-664b-4d17-957d-3b549adcacc9
+Error Number:8115,State:8,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 30-09-2020 21:39:28
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): Arithmetic overflow error converting numeric to data type numeric.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname)
+   at eAuction.AuctionStatusPartyWise.grdAuctionItemList_RowCommand(Object sender, GridViewCommandEventArgs e)
+ClientConnectionId:63ef4c98-664b-4d17-957d-3b549adcacc9
+Error Number:8115,State:8,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  

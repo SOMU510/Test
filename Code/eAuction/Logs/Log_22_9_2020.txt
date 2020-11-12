@@ -1,0 +1,192 @@
+Menu Name :-   ,Screen Name :- ASP.login_aspx  ,Date Time :- 22-09-2020 12:10:34
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.ArgumentNullException: Value cannot be null.
+Parameter name: url
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at YCS.ApplicationConfig.RedirectToDefaultPage()
+   at YCS.Login.btnLogin_Click(Object sender, EventArgs e)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Change Password   ,Screen Name :- ASP.eauction_changepassword_aspx  ,Date Time :- 22-09-2020 13:02:08
+Employee Name :- Ram  ,Role :- BM
+=============
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'sp_Change_Password'.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname)
+   at YCS.DBCommon.ChangePassword(LoginUserProfile objLoginUser, String NewPassword, String OldPassword, String NewTranPassword, String OldTranPassword, Boolean IsLoginChangePassword, Boolean IsTransChangePassword)
+   at eAuction.ChangePassword.btnChangePassword_Click(Object sender, EventArgs e)
+ClientConnectionId:32008687-e9bb-4ee4-a2a7-9df2a18a01a6
+Error Number:2812,State:62,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Change Login/Transaction Password   ,Screen Name :- ASP.eauction_changepassword_aspx  ,Date Time :- 22-09-2020 14:32:58
+Employee Name :- Ram  ,Role :- BM
+=============
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_Change_Password' expects parameter '@Trans_Password', which was not supplied.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at YCS.DBCommon.ChangePassword(LoginUserProfile objLoginUser, String NewPassword, String OldPassword, String NewTranPassword, String OldTranPassword, Boolean IsLoginChangePassword, Boolean IsTransChangePassword) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\DB\DBCommon.cs:line 462
+   at eAuction.ChangePassword.btnChangePassword_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\EAuction\ChangePassword.aspx.cs:line 195
+ClientConnectionId:593b7955-ab86-4154-908b-501994ceae5e
+Error Number:201,State:4,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Change Login/Transaction Password   ,Screen Name :- ASP.eauction_changepassword_aspx  ,Date Time :- 22-09-2020 14:34:23
+Employee Name :- Ram  ,Role :- BM
+=============
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_Change_Password' expects parameter '@Trans_Password', which was not supplied.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at YCS.DBCommon.ChangePassword(LoginUserProfile objLoginUser, String NewPassword, String OldPassword, String NewTranPassword, String OldTranPassword, Boolean IsLoginChangePassword, Boolean IsTransChangePassword) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\DB\DBCommon.cs:line 462
+   at eAuction.ChangePassword.btnChangePassword_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\EAuction\ChangePassword.aspx.cs:line 195
+ClientConnectionId:593b7955-ab86-4154-908b-501994ceae5e
+Error Number:201,State:4,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Change Login/Transaction Password   ,Screen Name :- ASP.eauction_changepassword_aspx  ,Date Time :- 22-09-2020 14:36:16
+Employee Name :- Ram  ,Role :- BM
+=============
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_Change_Password' expects parameter '@Trans_Password', which was not supplied.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at YCS.DBCommon.ChangePassword(LoginUserProfile objLoginUser, String NewPassword, String OldPassword, String NewTranPassword, String OldTranPassword, Boolean IsLoginChangePassword, Boolean IsTransChangePassword) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\DB\DBCommon.cs:line 462
+   at eAuction.ChangePassword.btnChangePassword_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\EAuction\ChangePassword.aspx.cs:line 195
+ClientConnectionId:593b7955-ab86-4154-908b-501994ceae5e
+Error Number:201,State:4,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.forgotpassword_aspx  ,Date Time :- 22-09-2020 14:53:33
+Before Login error.
+=============
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'TBLFIRM_EMPLOYEE'.
+   at YCS.DataConnection.GetDatatableSP(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\DB\DataConnection.cs:line 95
+   at YCS.DBCommon.ResetPassword(LoginUserProfile obj, Char LoginDevice, String passwordtype) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\DB\DBCommon.cs:line 361
+   at YCS.ForgotPassword.btnResetTransactionPassword_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\ForgotPassword.aspx.cs:line 104
+ClientConnectionId:64c2f704-4674-4538-884f-d5edc6a2a058
+Error Number:208,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 22-09-2020 14:55:33
+Before Login error.
+=============
+System.Web.HttpException (0x80004005): The file '/~/Login.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 22-09-2020 14:58:50
+Before Login error.
+=============
+System.Web.HttpException (0x80004005): The file '/~/Login.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 22-09-2020 15:01:11
+Before Login error.
+=============
+System.Web.HttpException (0x80004005): The file '/~/Login.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-State Master   ,Screen Name :- ASP.eauction_statemaster_aspx  ,Date Time :- 22-09-2020 15:50:42
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Exception: /Setting/PasswordPolicy/Is_Apply_Transaction_Password_Policy Not Found in CustomSetting.xml
+   at YCS.CustomAppSetting.ParseSetting(SettingGroup settingGroup, String settingKey, Boolean isSettingValueMandatory) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\General\CustomAppSetting.cs:line 261
+   at YCS.CustomAppSetting.get_Is_Apply_Transaction_Password_Policy() in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\General\CustomAppSetting.cs:line 223
+   at YCS.DBCommon.Is_Valid_Transaction_Password(TextBox txttranpassword, ManageUserSession objManageUserSession) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\DB\DBCommon.cs:line 489
+   at eAuction.StateMaster.btnSave_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\EAuction\StateMaster.aspx.cs:line 136
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-State Master   ,Screen Name :- ASP.eauction_statemaster_aspx  ,Date Time :- 22-09-2020 15:51:05
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Exception: /Setting/PasswordPolicy/Is_Apply_Transaction_Password_Policy Not Found in CustomSetting.xml
+   at YCS.CustomAppSetting.ParseSetting(SettingGroup settingGroup, String settingKey, Boolean isSettingValueMandatory) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\General\CustomAppSetting.cs:line 261
+   at YCS.CustomAppSetting.get_Is_Apply_Transaction_Password_Policy() in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\General\CustomAppSetting.cs:line 223
+   at YCS.DBCommon.Is_Valid_Transaction_Password(TextBox txttranpassword, ManageUserSession objManageUserSession) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\DB\DBCommon.cs:line 489
+   at eAuction.StateMaster.btnSave_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\EAuction\StateMaster.aspx.cs:line 136
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Role Master   ,Screen Name :- ASP.eauction_rolemaster_aspx  ,Date Time :- 22-09-2020 15:52:56
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Exception: /Setting/PasswordPolicy/Is_Apply_Transaction_Password_Policy Not Found in CustomSetting.xml
+   at YCS.CustomAppSetting.ParseSetting(SettingGroup settingGroup, String settingKey, Boolean isSettingValueMandatory) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\General\CustomAppSetting.cs:line 261
+   at YCS.CustomAppSetting.get_Is_Apply_Transaction_Password_Policy() in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\General\CustomAppSetting.cs:line 223
+   at YCS.DBCommon.Is_Valid_Transaction_Password(TextBox txttranpassword, ManageUserSession objManageUserSession) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\Classes\DB\DBCommon.cs:line 489
+   at eAuction.RoleMaster.btnSave_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\EAuction\RoleMaster.aspx.cs:line 147
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 22-09-2020 20:34:30
+Before Login error.
+=============
+System.Web.HttpCompileException (0x80004005): E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\EAuction\EmployeeMaster.aspx(254): error CS0030: Cannot convert type 'string' to 'bool'
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 22-09-2020 20:35:52
+Before Login error.
+=============
+System.Web.HttpCompileException (0x80004005): E:\Shailendra\Auction Portal\Code\22-Sep-2020\eAuction\EAuction\EmployeeMaster.aspx(254): error CS0030: Cannot convert type 'string' to 'bool'
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 22-09-2020 20:50:34
+Before Login error.
+=============
+System.Web.HttpException (0x80004005): The file '/CrystalCorporation/EmployeeMaster.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  

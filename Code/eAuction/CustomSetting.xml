@@ -1,0 +1,67 @@
+<Setting>
+  <General>
+    <URL_Root><![CDATA[http://localhost:53232]]></URL_Root>
+    <!-- http://localhost:53232 -->
+
+  </General>
+  <Email>
+    <Is_Mail_Allowed><![CDATA[false]]></Is_Mail_Allowed>
+    <Is_Enqueue_Mail_In_DB><![CDATA[false]]></Is_Enqueue_Mail_In_DB>
+    <FromMailAddress><![CDATA[noreply@eAuction.com]]></FromMailAddress>
+    <SmtpHost><![CDATA[smtp.sendgrid.net]]></SmtpHost>
+    <SmtpPort><![CDATA[587]]></SmtpPort>
+    <NetworkCredentialUserName><![CDATA[z3hLZf63suKx34e3+IQc6g==]]></NetworkCredentialUserName>
+    <NetworkCredentialPassword><![CDATA[K2lUq+wDqJ2dHowLpHX4GEcBTR8cMB0rE7tSct0tQG73oEjzdd102BOS5Yjc1S5R9sr9orAXP7OIwTf9FZGYANDQ8ZSdlV5PW7wcDj79L7s=]]></NetworkCredentialPassword>
+    <IgnoreDomainNames><![CDATA[]]></IgnoreDomainNames>
+    <!-- pernod-ricard.com|ycsin.com -->
+    <AllowEmailIds><![CDATA[]]></AllowEmailIds>
+    <!-- anamika.khare-ext@pernod-ricard.com|Aparna.Tiwari-ext@pernod-ricard.com -->
+  </Email>
+  <Message>
+    <Is_Message_Allowed><![CDATA[True]]></Is_Message_Allowed>
+    <Is_Enqueue_Message_In_DB><![CDATA[True]]></Is_Enqueue_Message_In_DB>
+    <RequestUriString><![CDATA[GfxdaXyiCe1sreESQiuvyY5bIpDuuoIWxE0G9LZBSu0Z2yR3MZyYEV2aO+CmUfmknuZzIALvxDAkEQKVJD2SDHwscLt03Ln4A5iPAeh8d+UvGYE7ksaUTt+PcatolAtVD4aiRpHbBdnc2LGHxNf2yvUYe1xPuob4x+EyvBgnZe11TiTyr7Mp5kog5Ox8QIOs7dipa+9zKHQK1BJU+1v+dw==]]></RequestUriString>
+  </Message>
+  <PasswordPolicy>
+    <Is_Apply_Password_Policy><![CDATA[False]]></Is_Apply_Password_Policy>
+    <Is_OTP_Verification_Required><![CDATA[False]]></Is_OTP_Verification_Required>
+    <OTP_Expiry_Duration_In_Mins><![CDATA[30]]></OTP_Expiry_Duration_In_Mins>
+    <Maximum_Password_Age><![CDATA[90]]></Maximum_Password_Age>
+    <Account_Lockout_Threshold><![CDATA[3]]></Account_Lockout_Threshold>
+    <Account_Lockout_Duration_In_Min><![CDATA[30]]></Account_Lockout_Duration_In_Min>
+    <Reset_Account_Lockout_Counter_After_In_Min><![CDATA[30]]></Reset_Account_Lockout_Counter_After_In_Min>
+    <Wrong_Password_Attemp_Cookies><![CDATA[AZy252c1468tsA_cookies]]></Wrong_Password_Attemp_Cookies>
+  </PasswordPolicy>
+  <TransactionPasswordPolicy>
+    <Is_Apply_Transaction_Password_Policy><![CDATA[False]]></Is_Apply_Transaction_Password_Policy>
+    <Account_Logout_Threshold><![CDATA[5]]></Account_Logout_Threshold>
+  </TransactionPasswordPolicy>
+  <PartyFlowApplicableRoleIds>
+    <Employee_Send_to_Party><![CDATA[1]]></Employee_Send_to_Party>
+    <Employee_Submitted><![CDATA[1]]></Employee_Submitted>
+    <Party_Submitted><![CDATA[2,3,4]]></Party_Submitted>
+    <Approved><![CDATA[1]]></Approved>
+    <Deactivated><![CDATA[1]]></Deactivated>
+    <Activate><![CDATA[1]]></Activate>
+    <Edit_After_Approved><![CDATA[1]]></Edit_After_Approved>
+  </PartyFlowApplicableRoleIds>
+  <AuctionFlowApplicableRoleIds>
+    <Saved><![CDATA[1,2]]></Saved>
+    <Ready_For_Review><![CDATA[1]]></Ready_For_Review>
+    <Ready_For_Publishing><![CDATA[1]]></Ready_For_Publishing>
+    <Requested_For_Published><![CDATA[1]]></Requested_For_Published>
+    <Published><![CDATA[5]]></Published>
+    <Reject><![CDATA[5]]></Reject>
+    <Active><![CDATA[5]]></Active>
+    <Conducted><![CDATA[5]]></Conducted>
+    <Settled><![CDATA[5]]></Settled>
+    <Discarded><![CDATA[5]]></Discarded>
+ </AuctionFlowApplicableRoleIds>
+  <Role>
+    <Admin><![CDATA[1]]></Admin>
+    <Client><![CDATA[2]]></Client>
+    <Customer><![CDATA[3]]></Customer>
+    <Supplier><![CDATA[4]]></Supplier>
+    <Publisher><![CDATA[5]]></Publisher>
+   </Role>
+</Setting>

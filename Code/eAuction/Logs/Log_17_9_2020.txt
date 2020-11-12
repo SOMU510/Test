@@ -1,0 +1,280 @@
+Menu Name :-   ,Screen Name :- ASP.login_aspx  ,Date Time :- 9/17/2020 11:18:27 AM
+Before Login error.
+=============
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'TBLFRMMST_ROLE'.
+   at CrystalCorporation.DataConnection.GetDatasetSP(String spname, List`1 pname) in E:\Somu Work\2020 Auction\Sep 2020 Auction\16-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 126
+   at DBCommon.Login_Authenticate(LoginUserProfile objLoginUserProfile) in E:\Somu Work\2020 Auction\Sep 2020 Auction\16-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DBCommon.cs:line 148
+   at CrystalCorporation.Login.btnLogin_Click(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\Sep 2020 Auction\16-Sep-2020 Auction\EAuction\CrystalCorporation\Login.aspx.cs:line 91
+ClientConnectionId:3aa7ddda-2821-4713-a4d6-eeaf7ab6f1aa
+Error Number:208,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-City Master   ,Screen Name :- ASP.eauction_citymaster_aspx  ,Date Time :- 9/17/2020 11:19:47 AM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'TBLFRMMST_STATE'.
+   at CrystalCorporation.DataConnection.GetDatasetSP(String spname, List`1 pname) in E:\Somu Work\2020 Auction\Sep 2020 Auction\16-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 126
+   at CrystalCorporation.MasterCollection.BindFirmCityList(Int64 City_Id, Int64 State_Id, Int64 Firm_Id, Int64 Status_Id, Object control, Boolean insertdefault) in E:\Somu Work\2020 Auction\Sep 2020 Auction\16-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\General\MasterCollection.cs:line 394
+   at CrystalCorporation.EAuction.CityMaster._Bind_Control() in E:\Somu Work\2020 Auction\Sep 2020 Auction\16-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\CityMaster.aspx.cs:line 92
+   at CrystalCorporation.EAuction.CityMaster.Page_Load(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\Sep 2020 Auction\16-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\CityMaster.aspx.cs:line 40
+ClientConnectionId:3aa7ddda-2821-4713-a4d6-eeaf7ab6f1aa
+Error Number:208,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-City Master   ,Screen Name :- ASP.eauction_citymaster_aspx  ,Date Time :- 9/17/2020 11:20:16 AM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'TBLFRMMST_STATE'.
+   at CrystalCorporation.DataConnection.GetDatasetSP(String spname, List`1 pname) in E:\Somu Work\2020 Auction\Sep 2020 Auction\16-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 126
+   at CrystalCorporation.MasterCollection.BindFirmCityList(Int64 City_Id, Int64 State_Id, Int64 Firm_Id, Int64 Status_Id, Object control, Boolean insertdefault) in E:\Somu Work\2020 Auction\Sep 2020 Auction\16-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\General\MasterCollection.cs:line 394
+   at CrystalCorporation.EAuction.CityMaster._Bind_Control() in E:\Somu Work\2020 Auction\Sep 2020 Auction\16-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\CityMaster.aspx.cs:line 92
+   at CrystalCorporation.EAuction.CityMaster.Page_Load(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\Sep 2020 Auction\16-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\CityMaster.aspx.cs:line 40
+ClientConnectionId:3aa7ddda-2821-4713-a4d6-eeaf7ab6f1aa
+Error Number:208,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Employee Master   ,Screen Name :- ASP.eauction_employeemaster_aspx  ,Date Time :- 9/17/2020 11:24:40 AM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'SP_Get_Firm_Employee'.
+   at CrystalCorporation.DataConnection.GetDatasetSP(String spname, List`1 pname) in E:\Somu Work\2020 Auction\Sep 2020 Auction\16-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 126
+   at CrystalCorporation.MasterCollection.BindFirmEmployee(Int64 Employee_Id, Int64 Status_Id, Object control, Boolean insertdefault, Int64 FirmId, Nullable`1 IsUserHasAccessControl) in E:\Somu Work\2020 Auction\Sep 2020 Auction\16-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\General\MasterCollection.cs:line 304
+   at CrystalCorporation.EAuction.EmployeeMaster._Bind_Control() in E:\Somu Work\2020 Auction\Sep 2020 Auction\16-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\EmployeeMaster.aspx.cs:line 101
+   at CrystalCorporation.EAuction.EmployeeMaster.Page_Load(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\Sep 2020 Auction\16-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\EmployeeMaster.aspx.cs:line 41
+ClientConnectionId:3aa7ddda-2821-4713-a4d6-eeaf7ab6f1aa
+Error Number:2812,State:62,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Company Type Master   ,Screen Name :- ASP.eauction_companytypemaster_aspx  ,Date Time :- 9/17/2020 11:42:23 AM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'TBLFRMMST_COMPANY_TYPE'.
+   at CrystalCorporation.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 65
+   at CrystalCorporation.EAuction.CompanyTypeMaster.btnSave_Click(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\CompanyTypeMaster.aspx.cs:line 150
+ClientConnectionId:55afefa0-dce5-4e18-aa4b-998efc0c3d5b
+Error Number:208,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.login_aspx  ,Date Time :- 9/17/2020 12:47:34 PM
+Before Login error.
+=============
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'TBLFRMMST_ROLE'.
+   at CrystalCorporation.DataConnection.GetDatasetSP(String spname, List`1 pname) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 126
+   at DBCommon.Login_Authenticate(LoginUserProfile objLoginUserProfile) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DBCommon.cs:line 148
+   at CrystalCorporation.Login.btnLogin_Click(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Login.aspx.cs:line 91
+ClientConnectionId:ba5fea96-6923-443d-a1c8-22dca21c0f3b
+Error Number:208,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.login_aspx  ,Date Time :- 9/17/2020 12:48:38 PM
+Before Login error.
+=============
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'TBLFRMMST_ROLE'.
+   at CrystalCorporation.DataConnection.GetDatasetSP(String spname, List`1 pname) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 126
+   at DBCommon.Login_Authenticate(LoginUserProfile objLoginUserProfile) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DBCommon.cs:line 148
+   at CrystalCorporation.Login.btnLogin_Click(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Login.aspx.cs:line 91
+ClientConnectionId:ba5fea96-6923-443d-a1c8-22dca21c0f3b
+Error Number:208,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Employee Master   ,Screen Name :- ASP.eauction_employeemaster_aspx  ,Date Time :- 9/17/2020 12:50:06 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'TBLFRMMST_DOCUMENT'.
+   at CrystalCorporation.DataConnection.GetDatatableSP(String spname, List`1 pname) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 95
+   at CrystalCorporation.MasterCollection.FillFirmDocumentSettingDetails(Object control, Int64 Status_Id, String Employee_Control_Status_Enum_Ids, String Supplier_Control_Status_Enum_Ids, String Customer_Control_Status_Enum_Ids, Boolean insertdefault, String Client_Control_Status_Enum_Ids, Int64 Firm_Id) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\General\MasterCollection.cs:line 324
+   at CrystalCorporation.EAuction.EmployeeMaster._Bind_Control() in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\EmployeeMaster.aspx.cs:line 112
+   at CrystalCorporation.EAuction.EmployeeMaster.Page_Load(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\EmployeeMaster.aspx.cs:line 42
+ClientConnectionId:ba5fea96-6923-443d-a1c8-22dca21c0f3b
+Error Number:208,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Employee Master   ,Screen Name :- ASP.eauction_employeemaster_aspx  ,Date Time :- 9/17/2020 12:50:54 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'TBLFRMMST_DOCUMENT'.
+   at CrystalCorporation.DataConnection.GetDatatableSP(String spname, List`1 pname) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 95
+   at CrystalCorporation.MasterCollection.FillFirmDocumentSettingDetails(Object control, Int64 Status_Id, String Employee_Control_Status_Enum_Ids, String Supplier_Control_Status_Enum_Ids, String Customer_Control_Status_Enum_Ids, Boolean insertdefault, String Client_Control_Status_Enum_Ids, Int64 Firm_Id) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\General\MasterCollection.cs:line 324
+   at CrystalCorporation.EAuction.EmployeeMaster._Bind_Control() in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\EmployeeMaster.aspx.cs:line 112
+   at CrystalCorporation.EAuction.EmployeeMaster.Page_Load(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\EmployeeMaster.aspx.cs:line 42
+ClientConnectionId:ba5fea96-6923-443d-a1c8-22dca21c0f3b
+Error Number:208,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Employee Master   ,Screen Name :- ASP.eauction_employeemaster_aspx  ,Date Time :- 9/17/2020 12:51:19 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'TBLFRMMST_DOCUMENT'.
+   at CrystalCorporation.DataConnection.GetDatatableSP(String spname, List`1 pname) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 95
+   at CrystalCorporation.MasterCollection.FillFirmDocumentSettingDetails(Object control, Int64 Status_Id, String Employee_Control_Status_Enum_Ids, String Supplier_Control_Status_Enum_Ids, String Customer_Control_Status_Enum_Ids, Boolean insertdefault, String Client_Control_Status_Enum_Ids, Int64 Firm_Id) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\General\MasterCollection.cs:line 324
+   at CrystalCorporation.EAuction.EmployeeMaster._Bind_Control() in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\EmployeeMaster.aspx.cs:line 112
+   at CrystalCorporation.EAuction.EmployeeMaster.Page_Load(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\EmployeeMaster.aspx.cs:line 42
+ClientConnectionId:ba5fea96-6923-443d-a1c8-22dca21c0f3b
+Error Number:208,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Employee Master   ,Screen Name :- ASP.eauction_employeemaster_aspx  ,Date Time :- 9/17/2020 12:52:10 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'TBLMST_DOCUMENT_SETTING'.
+   at CrystalCorporation.DataConnection.GetDatatableSP(String spname, List`1 pname) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 95
+   at CrystalCorporation.MasterCollection.FillFirmDocumentSettingDetails(Object control, Int64 Status_Id, String Employee_Control_Status_Enum_Ids, String Supplier_Control_Status_Enum_Ids, String Customer_Control_Status_Enum_Ids, Boolean insertdefault, String Client_Control_Status_Enum_Ids, Int64 Firm_Id) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\General\MasterCollection.cs:line 324
+   at CrystalCorporation.EAuction.EmployeeMaster._Bind_Control() in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\EmployeeMaster.aspx.cs:line 112
+   at CrystalCorporation.EAuction.EmployeeMaster.Page_Load(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\EmployeeMaster.aspx.cs:line 42
+ClientConnectionId:ba5fea96-6923-443d-a1c8-22dca21c0f3b
+Error Number:208,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Employee Master   ,Screen Name :- ASP.eauction_employeemaster_aspx  ,Date Time :- 9/17/2020 12:55:10 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'TBLFRMMST_ROLE'.
+   at CrystalCorporation.DataConnection.GetDatasetSP(String spname, List`1 pname) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 126
+   at CrystalCorporation.MasterCollection.BindFirmEmployee(Int64 Employee_Id, Int64 Status_Id, Int64 Firm_Id, SearchRecord SearchRecord, Object control, Boolean insertdefault) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\General\MasterCollection.cs:line 414
+   at CrystalCorporation.EAuction.EmployeeMaster.grdData_RowCommand(Object sender, GridViewCommandEventArgs e) in E:\Somu Work\2020 Auction\Sep 2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\EmployeeMaster.aspx.cs:line 812
+ClientConnectionId:ba5fea96-6923-443d-a1c8-22dca21c0f3b
+Error Number:208,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 17-09-2020 16:38:25
+Before Login error.
+=============
+System.Web.HttpParseException (0x80004005): E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\AdminMaster.Master(364): error CS1002: ; expected ---> System.Web.HttpCompileException (0x80004005): E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\AdminMaster.Master(364): error CS1002: ; expected
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 17-09-2020 16:39:23
+Before Login error.
+=============
+System.Web.HttpParseException (0x80004005): E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\AdminMaster.Master(364): error CS1002: ; expected ---> System.Web.HttpCompileException (0x80004005): E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\AdminMaster.Master(364): error CS1002: ; expected
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Employee Master   ,Screen Name :- ASP.eauction_employeemaster_aspx  ,Date Time :- 17-09-2020 16:40:55
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'SP_Get_Firm'.
+   at CrystalCorporation.DataConnection.GetDatasetSP(String spname, List`1 pname) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 126
+   at CrystalCorporation.MasterCollection.BindFirmList(Int64 Firm_Id, Int64 Status_Id, Object control, Boolean insertdefault) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\General\MasterCollection.cs:line 255
+   at CrystalCorporation.EAuction.EmployeeMaster._Bind_Control() in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\EmployeeMaster.aspx.cs:line 102
+   at CrystalCorporation.EAuction.EmployeeMaster.Page_Load(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\EmployeeMaster.aspx.cs:line 42
+ClientConnectionId:f1e6061a-5c4a-4643-82f8-a02881f2741e
+Error Number:2812,State:62,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Category Master   ,Screen Name :- ASP.eauction_categorymaster_aspx  ,Date Time :- 17-09-2020 19:33:49
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'SP_Get_Firm'.
+   at CrystalCorporation.DataConnection.GetDatasetSP(String spname, List`1 pname) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 126
+   at CrystalCorporation.MasterCollection.BindFirmList(Int64 Firm_Id, Int64 Status_Id, Object control, Boolean insertdefault) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\General\MasterCollection.cs:line 269
+   at CrystalCorporation.EAuction.CategoryMaster._Bind_Control() in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\CategoryMaster.aspx.cs:line 88
+   at CrystalCorporation.EAuction.CategoryMaster.Page_Load(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\CategoryMaster.aspx.cs:line 39
+ClientConnectionId:805288a1-a63e-4d8e-b1db-76a5a5122e1c
+Error Number:2812,State:62,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Category Master   ,Screen Name :- ASP.eauction_categorymaster_aspx  ,Date Time :- 17-09-2020 19:35:23
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'SP_Get_Firm'.
+   at CrystalCorporation.DataConnection.GetDatasetSP(String spname, List`1 pname) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 126
+   at CrystalCorporation.MasterCollection.BindFirmList(Int64 Firm_Id, Int64 Status_Id, Object control, Boolean insertdefault) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\General\MasterCollection.cs:line 269
+   at CrystalCorporation.EAuction.CategoryMaster._Bind_Control() in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\CategoryMaster.aspx.cs:line 88
+   at CrystalCorporation.EAuction.CategoryMaster.Page_Load(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\CategoryMaster.aspx.cs:line 39
+ClientConnectionId:805288a1-a63e-4d8e-b1db-76a5a5122e1c
+Error Number:2812,State:62,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Category Master   ,Screen Name :- ASP.eauction_categorymaster_aspx  ,Date Time :- 17-09-2020 19:35:26
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'SP_Get_Firm'.
+   at CrystalCorporation.DataConnection.GetDatasetSP(String spname, List`1 pname) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 126
+   at CrystalCorporation.MasterCollection.BindFirmList(Int64 Firm_Id, Int64 Status_Id, Object control, Boolean insertdefault) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\General\MasterCollection.cs:line 269
+   at CrystalCorporation.EAuction.CategoryMaster._Bind_Control() in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\CategoryMaster.aspx.cs:line 88
+   at CrystalCorporation.EAuction.CategoryMaster.Page_Load(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\CategoryMaster.aspx.cs:line 39
+ClientConnectionId:805288a1-a63e-4d8e-b1db-76a5a5122e1c
+Error Number:2812,State:62,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Category Master   ,Screen Name :- ASP.eauction_categorymaster_aspx  ,Date Time :- 17-09-2020 19:36:55
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'SP_Get_Firm'.
+   at CrystalCorporation.DataConnection.GetDatasetSP(String spname, List`1 pname) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 126
+   at CrystalCorporation.MasterCollection.BindFirmList(Int64 Firm_Id, Int64 Status_Id, Object control, Boolean insertdefault) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\General\MasterCollection.cs:line 269
+   at CrystalCorporation.EAuction.CategoryMaster._Bind_Control() in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\CategoryMaster.aspx.cs:line 88
+   at CrystalCorporation.EAuction.CategoryMaster.Page_Load(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\CategoryMaster.aspx.cs:line 39
+ClientConnectionId:805288a1-a63e-4d8e-b1db-76a5a5122e1c
+Error Number:2812,State:62,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Category Master   ,Screen Name :- ASP.eauction_categorymaster_aspx  ,Date Time :- 17-09-2020 20:07:33
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function SP_Get_Category has too many arguments specified.
+   at CrystalCorporation.DataConnection.GetDatasetSP(String spname, List`1 pname) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\DB\DataConnection.cs:line 126
+   at CrystalCorporation.MasterCollection.BindCategory(Int64 Category_Id, Int64 Category_Type_Enum_Id, Int64 Firm_Id, Int64 Status_Id, Object control, Boolean insertdefault) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\Classes\General\MasterCollection.cs:line 378
+   at CrystalCorporation.EAuction.CategoryMaster._Bind_Control() in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\CategoryMaster.aspx.cs:line 90
+   at CrystalCorporation.EAuction.CategoryMaster.Page_Load(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\17-Sep-2020 Auction\17-Sep-2020 Auction\EAuction\CrystalCorporation\EAuction\CategoryMaster.aspx.cs:line 39
+ClientConnectionId:fa5523a6-4be0-4434-85a3-83e2356eeec4
+Error Number:8144,State:2,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  

@@ -1,0 +1,92 @@
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 10/9/2020 12:53:50 PM
+Before Login error.
+=============
+System.Web.HttpException (0x80004005): This is an invalid webresource request.
+   at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Create Auction   ,Screen Name :- ASP.eauction_createauction_aspx  ,Date Time :- 10/9/2020 1:52:25 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_Get_Party' expects parameter '@Dealing_In_Enum_Type_Id', which was not supplied.
+   at YCS.DataConnection.GetDatasetSP(String spname, List`1 pname) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 09-Oct-2020\Code\eAuction\Classes\DB\DataConnection.cs:line 126
+   at YCS.MasterCollection.BindParty(Int64 Firm_Id, Int64 Party_Id, String Party_Type_Enum_Ids, Int64 Company_Type_Id, Int64 Party_Status_Id, Int64 Status_Id, String CompanyNameAndCode, SearchRecord SearchRecord, Object control, Boolean insertdefault) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 09-Oct-2020\Code\eAuction\Classes\General\MasterCollection.cs:line 468
+   at eAuction.CreateAuction._Bind_Control() in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 09-Oct-2020\Code\eAuction\EAuction\CreateAuction.aspx.cs:line 243
+   at eAuction.CreateAuction.Page_Load(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 09-Oct-2020\Code\eAuction\EAuction\CreateAuction.aspx.cs:line 70
+ClientConnectionId:5cae5fed-44f8-4af6-8c49-8a5196427f88
+Error Number:201,State:4,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Create Auction   ,Screen Name :- ASP.eauction_createauction_aspx  ,Date Time :- 10/9/2020 2:30:03 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Auction_Party_Link_Id'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.eauction_createauction_aspx.__DataBinding__control278(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 09-Oct-2020\Code\eAuction\EAuction\CreateAuction.aspx:line 616
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at eAuction.CreateAuction.ddlAuctionType_SelectedIndexChanged(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 09-Oct-2020\Code\eAuction\EAuction\CreateAuction.aspx.cs:line 2514
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Create Auction   ,Screen Name :- ASP.eauction_createauction_aspx  ,Date Time :- 10/9/2020 2:30:52 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Party_Contact_Person_Name'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.eauction_createauction_aspx.__DataBinding__control312(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 09-Oct-2020\Code\eAuction\EAuction\CreateAuction.aspx:line 652
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at eAuction.CreateAuction.ddlAuctionType_SelectedIndexChanged(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 09-Oct-2020\Code\eAuction\EAuction\CreateAuction.aspx.cs:line 2514
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 10/9/2020 4:28:13 PM
+Before Login error.
+=============
+System.Web.HttpException (0x80004005): This is an invalid webresource request.
+   at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  

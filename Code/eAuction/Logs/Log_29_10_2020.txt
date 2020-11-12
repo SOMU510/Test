@@ -1,0 +1,64 @@
+Menu Name :-   ,Screen Name :- ASP.login_aspx  ,Date Time :- 10/29/2020 8:33:05 AM
+Before Login error.
+=============
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at YCS.DataConnection.GetDatasetSP(String spname, List`1 pname) in E:\Auction Work\29-Oct-2020 E-auction\Auction Code 28-Oct-2020\Code\eAuction\Classes\DB\DataConnection.cs:line 126
+   at YCS.DBCommon.Login_Authenticate(LoginUserProfile objLoginUserProfile) in E:\Auction Work\29-Oct-2020 E-auction\Auction Code 28-Oct-2020\Code\eAuction\Classes\DB\DBCommon.cs:line 174
+   at YCS.Login.btnLogin_Click(Object sender, EventArgs e) in E:\Auction Work\29-Oct-2020 E-auction\Auction Code 28-Oct-2020\Code\eAuction\Login.aspx.cs:line 127
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 10/29/2020 8:53:32 AM
+Before Login error.
+=============
+System.Web.HttpException (0x80004005): This is an invalid webresource request.
+   at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 10/29/2020 8:58:16 AM
+Employee Name :- c  ,Role :- Customer
+=============
+System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'CloseTimeWithExtend'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.eauction_auctionstatuspartywise_aspx.__DataBinding__control77(Object sender, EventArgs e) in E:\Auction Work\29-Oct-2020 E-auction\Auction Code 28-Oct-2020\Code\eAuction\EAuction\AuctionStatusPartyWise.aspx:line 335
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at CallSite.Target(Closure , CallSite , Object )
+   at YCS.DBCommon.Bind_Control(Object control, DataTable dt, Boolean insertdefault, String dataValueField, String dataTextField) in E:\Auction Work\29-Oct-2020 E-auction\Auction Code 28-Oct-2020\Code\eAuction\Classes\DB\DBCommon.cs:line 106
+   at CallSite.Target(Closure , CallSite , DBCommon , Object , DataTable , Boolean , String , String )
+   at YCS.MasterCollection.BindAuction(Int64 Firm_Id, Int64 Auction_Id, Int64 Status_Id, Int64 Role_Enum_Type_Id, Int64 Role_Id, Int64 Login_User_Id, DateTime CurrentDateTime, Int64 Party_Id, Object control, Int64 DashBoard_Id, Boolean insertdefault) in E:\Auction Work\29-Oct-2020 E-auction\Auction Code 28-Oct-2020\Code\eAuction\Classes\General\MasterCollection.cs:line 496
+   at eAuction.AuctionStatusPartyWise.Fill_Auction_Data(Int64 dashBoard_Auction_Enum_Id) in E:\Auction Work\29-Oct-2020 E-auction\Auction Code 28-Oct-2020\Code\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 344
+   at eAuction.AuctionStatusPartyWise.ddlDashBoardAuction_SelectedIndexChanged(Object sender, EventArgs e) in E:\Auction Work\29-Oct-2020 E-auction\Auction Code 28-Oct-2020\Code\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 82
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 10/29/2020 10:13:29 AM
+Before Login error.
+=============
+System.Web.HttpException (0x80004005): This is an invalid webresource request.
+   at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  

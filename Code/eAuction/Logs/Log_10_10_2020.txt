@@ -1,0 +1,155 @@
+Menu Name :-Create Auction   ,Screen Name :- ASP.eauction_createauction_aspx  ,Date Time :- 10/10/2020 11:30:43 AM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Company_Type'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.eauction_createauction_aspx.__DataBinding__control297(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 10-Oct-2020\Code\eAuction\EAuction\CreateAuction.aspx:line 639
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at eAuction.CreateAuction.PartyDetailsAll() in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 10-Oct-2020\Code\eAuction\EAuction\CreateAuction.aspx.cs:line 1756
+   at eAuction.CreateAuction.grdData_RowCommand(Object sender, GridViewCommandEventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 10-Oct-2020\Code\eAuction\EAuction\CreateAuction.aspx.cs:line 1827
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Employee Master   ,Screen Name :- YCS.Notification  ,Date Time :- 10/10/2020 12:33:09 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Net.WebException: The remote server returned an error: (502) Bad Gateway.
+   at System.Net.HttpWebRequest.GetResponse()
+   at YCS.Notification.SendSMS(String mobileNo, String message, Boolean throwException) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 10-Oct-2020\Code\eAuction\Classes\General\Notification.cs:line 211
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Party Master   ,Screen Name :- YCS.Notification  ,Date Time :- 10/10/2020 12:39:25 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Net.WebException: The remote server returned an error: (502) Bad Gateway.
+   at System.Net.HttpWebRequest.GetResponse()
+   at YCS.Notification.SendSMS(String mobileNo, String message, Boolean throwException) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 10-Oct-2020\Code\eAuction\Classes\General\Notification.cs:line 211
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Party Master   ,Screen Name :- YCS.Notification  ,Date Time :- 10/10/2020 12:42:48 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Net.WebException: The remote server returned an error: (502) Bad Gateway.
+   at System.Net.HttpWebRequest.GetResponse()
+   at YCS.Notification.SendSMS(String mobileNo, String message, Boolean throwException) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 10-Oct-2020\Code\eAuction\Classes\General\Notification.cs:line 211
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Party Master   ,Screen Name :- YCS.Notification  ,Date Time :- 10/10/2020 12:47:34 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Net.WebException: The remote server returned an error: (502) Bad Gateway.
+   at System.Net.HttpWebRequest.GetResponse()
+   at YCS.Notification.SendSMS(String mobileNo, String message, Boolean throwException) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 10-Oct-2020\Code\eAuction\Classes\General\Notification.cs:line 211
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Party Master   ,Screen Name :- YCS.Notification  ,Date Time :- 10/10/2020 12:51:51 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Net.WebException: The remote server returned an error: (502) Bad Gateway.
+   at System.Net.HttpWebRequest.GetResponse()
+   at YCS.Notification.SendSMS(String mobileNo, String message, Boolean throwException) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 10-Oct-2020\Code\eAuction\Classes\General\Notification.cs:line 211
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Party Master   ,Screen Name :- YCS.Notification  ,Date Time :- 10/10/2020 12:52:17 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Net.WebException: The remote server returned an error: (502) Bad Gateway.
+   at System.Net.HttpWebRequest.GetResponse()
+   at YCS.Notification.SendSMS(String mobileNo, String message, Boolean throwException) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 10-Oct-2020\Code\eAuction\Classes\General\Notification.cs:line 211
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 10/10/2020 12:54:39 PM
+Before Login error.
+=============
+System.Web.HttpException (0x80004005): This is an invalid webresource request.
+   at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 10/10/2020 1:48:00 PM
+Before Login error.
+=============
+System.Web.HttpParseException (0x80004005): The tag contains duplicate 'Width' attributes. ---> System.Web.HttpParseException (0x80004005): The tag contains duplicate 'Width' attributes. ---> System.Web.HttpException (0x80004005): The tag contains duplicate 'Width' attributes.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at Microsoft.AspNet.FriendlyUrls.Abstractions.BuildManagerWrapper.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at Microsoft.AspNet.FriendlyUrls.FriendlyUrlRoute.GetWebObjectFactory(HttpContextBase httpContext, String modifiedVirtualPath)
+   at Microsoft.AspNet.FriendlyUrls.FriendlyUrlRoute.Resolve(HttpContextBase httpContext, IList`1 extensions, String virtualPathOverride, IFriendlyUrlRouteSupportFunctions supportFunctions)
+   at Microsoft.AspNet.FriendlyUrls.FriendlyUrlRoute.Microsoft.AspNet.FriendlyUrls.Abstractions.IFriendlyUrlRouteSupportFunctions.Resolve(HttpContextBase httpContext, IList`1 extensions, String virtualPathOverride)
+   at Microsoft.AspNet.FriendlyUrls.FriendlyUrlRoute.GetRouteData(HttpContextBase httpContext, String pathOverride, IFriendlyUrlRouteSupportFunctions supportFunctions)
+   at Microsoft.AspNet.FriendlyUrls.FriendlyUrlRoute.GetRouteData(HttpContextBase httpContext)
+   at System.Web.Routing.RouteCollection.GetRouteData(HttpContextBase httpContext)
+   at System.Web.Routing.UrlRoutingModule.PostResolveRequestCache(HttpContextBase context)
+   at System.Web.Routing.UrlRoutingModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 10/10/2020 2:06:41 PM
+Before Login error.
+=============
+System.Web.HttpException (0x80004005): This is an invalid webresource request.
+   at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 10/10/2020 3:33:46 PM
+Before Login error.
+=============
+System.Web.HttpException (0x80004005): This is an invalid webresource request.
+   at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 10/10/2020 3:44:48 PM
+Before Login error.
+=============
+System.Web.HttpException (0x80004005): This is an invalid webresource request.
+   at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  

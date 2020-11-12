@@ -1,0 +1,381 @@
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 00:10:33
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at eAuction.AuctionStatusPartyWise.grdAuctionItemList_RowCommand(Object sender, GridViewCommandEventArgs e) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 600
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 00:10:40
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at eAuction.AuctionStatusPartyWise.grdAuctionItemList_RowCommand(Object sender, GridViewCommandEventArgs e) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 600
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 00:14:48
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_IU_Auction_Bid' expects parameter '@Source', which was not supplied.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.AuctionStatusPartyWise.BidEntry(Object sender, Int32 rowid, String bidorTakeleadorAutobid) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 484
+   at eAuction.AuctionStatusPartyWise.btnConfirm_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\02-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 1141
+ClientConnectionId:fb0ea4a1-54ce-4a9d-9789-671dc0e0cb74
+Error Number:201,State:4,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 15:04:00
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at YCS.Utility.Convert_ddMMyyyyhhmmsstt_Into_DateTime(String date) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\Classes\General\Utility.cs:line 768
+   at eAuction.AuctionStatusPartyWise.grdAuctionItemList_RowCommand(Object sender, GridViewCommandEventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 644
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 16:49:18
+Employee Name :- w1  ,Role :- Customer
+=============
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToDecimal(IFormatProvider provider)
+   at System.Convert.ToDecimal(Object value)
+   at ASP.eauction_auctionstatuspartywise_aspx.__DataBinding__control311(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx:line 538
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at eAuction.AuctionStatusPartyWise.grdAuctionItemList_RowCommand(Object sender, GridViewCommandEventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 888
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 16:55:11
+Employee Name :- w1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): DFDFD
+Warning: Null value is eliminated by an aggregate or other SET operation.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.AuctionStatusPartyWise.BidEntry(Object sender, Int32 rowid, String bidorTakeleadorAutobid) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 513
+   at eAuction.AuctionStatusPartyWise.btnConfirm_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 1206
+ClientConnectionId:84b4ea6d-2b25-4673-909f-808ae0f16d53
+Error Number:59004,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 16:56:08
+Employee Name :- w1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): ||6||Bid Value
+Warning: Null value is eliminated by an aggregate or other SET operation.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.AuctionStatusPartyWise.BidEntry(Object sender, Int32 rowid, String bidorTakeleadorAutobid) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 513
+   at eAuction.AuctionStatusPartyWise.btnConfirm_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 1206
+ClientConnectionId:84b4ea6d-2b25-4673-909f-808ae0f16d53
+Error Number:59004,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 16:56:13
+Employee Name :- w1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): ||6||Bid Value
+Warning: Null value is eliminated by an aggregate or other SET operation.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.AuctionStatusPartyWise.BidEntry(Object sender, Int32 rowid, String bidorTakeleadorAutobid) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 513
+   at eAuction.AuctionStatusPartyWise.btnConfirm_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 1206
+ClientConnectionId:84b4ea6d-2b25-4673-909f-808ae0f16d53
+Error Number:59004,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 16:56:17
+Employee Name :- w1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): ||6||Bid Value
+Warning: Null value is eliminated by an aggregate or other SET operation.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.AuctionStatusPartyWise.BidEntry(Object sender, Int32 rowid, String bidorTakeleadorAutobid) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 513
+   at eAuction.AuctionStatusPartyWise.btnConfirm_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 1206
+ClientConnectionId:84b4ea6d-2b25-4673-909f-808ae0f16d53
+Error Number:59004,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 17:03:34
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): ||6||Bid Value
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.AuctionStatusPartyWise.BidEntry(Object sender, Int32 rowid, String bidorTakeleadorAutobid) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 513
+   at eAuction.AuctionStatusPartyWise.btnConfirm_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 1206
+ClientConnectionId:e3a40b9b-f54e-4f4f-b9cb-05f824b7ae44
+Error Number:59004,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 17:04:03
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): ||67||
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname)
+   at eAuction.AuctionStatusPartyWise.BidEntry(Object sender, Int32 rowid, String bidorTakeleadorAutobid)
+   at eAuction.AuctionStatusPartyWise.btnConfirm_Click(Object sender, EventArgs e)
+ClientConnectionId:e3a40b9b-f54e-4f4f-b9cb-05f824b7ae44
+Error Number:59004,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 17:04:43
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): ||71||
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname)
+   at eAuction.AuctionStatusPartyWise.BidEntry(Object sender, Int32 rowid, String bidorTakeleadorAutobid)
+   at eAuction.AuctionStatusPartyWise.btnConfirm_Click(Object sender, EventArgs e)
+ClientConnectionId:e3a40b9b-f54e-4f4f-b9cb-05f824b7ae44
+Error Number:59004,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 17:05:19
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): ||72||
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname)
+   at eAuction.AuctionStatusPartyWise.BidEntry(Object sender, Int32 rowid, String bidorTakeleadorAutobid)
+   at eAuction.AuctionStatusPartyWise.btnConfirm_Click(Object sender, EventArgs e)
+ClientConnectionId:e3a40b9b-f54e-4f4f-b9cb-05f824b7ae44
+Error Number:59004,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 17:10:38
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): ||67||
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.AuctionStatusPartyWise.BidEntry(Object sender, Int32 rowid, String bidorTakeleadorAutobid) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 513
+   at eAuction.AuctionStatusPartyWise.btnConfirm_Click(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 1206
+ClientConnectionId:49b62702-13a4-4d45-9157-4e368e5cd317
+Error Number:59004,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 17:14:18
+Employee Name :- w1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): ||66||
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname)
+   at eAuction.AuctionStatusPartyWise.BidEntry(Object sender, Int32 rowid, String bidorTakeleadorAutobid)
+   at eAuction.AuctionStatusPartyWise.btnConfirm_Click(Object sender, EventArgs e)
+ClientConnectionId:49b62702-13a4-4d45-9157-4e368e5cd317
+Error Number:59004,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 18:04:52
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): ||69||
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname)
+   at eAuction.AuctionStatusPartyWise.BidEntry(Object sender, Int32 rowid, String bidorTakeleadorAutobid)
+   at eAuction.AuctionStatusPartyWise.btnConfirm_Click(Object sender, EventArgs e)
+ClientConnectionId:2fc55b63-0543-40af-9296-5c930b7ac47b
+Error Number:59004,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 18:04:56
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.Data.SqlClient.SqlException (0x80131904): ||69||
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname)
+   at eAuction.AuctionStatusPartyWise.BidEntry(Object sender, Int32 rowid, String bidorTakeleadorAutobid)
+   at eAuction.AuctionStatusPartyWise.btnConfirm_Click(Object sender, EventArgs e)
+ClientConnectionId:2fc55b63-0543-40af-9296-5c930b7ac47b
+Error Number:59004,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 18:07:29
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at eAuction.AuctionStatusPartyWise.grdAuctionItemList_RowCommand(Object sender, GridViewCommandEventArgs e)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 18:07:33
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at eAuction.AuctionStatusPartyWise.grdAuctionItemList_RowCommand(Object sender, GridViewCommandEventArgs e)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-   ,Screen Name :- ASP.global_asax  ,Date Time :- 03-10-2020 22:55:01
+Before Login error.
+=============
+System.Web.HttpCompileException (0x80004005): E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx(312): error CS7036: There is no argument given that corresponds to the required formal parameter 'auction_status_id' of 'AuctionStatusPartyWise.WillOpenIn(DateTime, DateTime, bool, long)'
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 23:02:15
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   at System.Convert.ToInt64(Object value)
+   at ASP.eauction_auctionstatuspartywise_aspx.__DataBinding__control59(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx:line 312
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at CallSite.Target(Closure , CallSite , Object )
+   at YCS.DBCommon.Bind_Control(Object control, DataTable dt, Boolean insertdefault, String dataValueField, String dataTextField) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\Classes\DB\DBCommon.cs:line 106
+   at CallSite.Target(Closure , CallSite , DBCommon , Object , DataTable , Boolean , String , String )
+   at YCS.MasterCollection.BindAuction(Int64 Firm_Id, Int64 Auction_Id, Int64 Status_Id, Int64 Role_Enum_Type_Id, Int64 Role_Id, Int64 Login_User_Id, Nullable`1 CurrentDateTime, Int64 Party_Id, Object control, Boolean insertdefault) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\Classes\General\MasterCollection.cs:line 467
+   at eAuction.AuctionStatusPartyWise._Bind_Control() in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 121
+   at eAuction.AuctionStatusPartyWise.Page_Load(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 45
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 23:02:38
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   at System.Convert.ToInt64(Object value)
+   at ASP.eauction_auctionstatuspartywise_aspx.__DataBinding__control59(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx:line 312
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at CallSite.Target(Closure , CallSite , Object )
+   at YCS.DBCommon.Bind_Control(Object control, DataTable dt, Boolean insertdefault, String dataValueField, String dataTextField) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\Classes\DB\DBCommon.cs:line 106
+   at CallSite.Target(Closure , CallSite , DBCommon , Object , DataTable , Boolean , String , String )
+   at YCS.MasterCollection.BindAuction(Int64 Firm_Id, Int64 Auction_Id, Int64 Status_Id, Int64 Role_Enum_Type_Id, Int64 Role_Id, Int64 Login_User_Id, Nullable`1 CurrentDateTime, Int64 Party_Id, Object control, Boolean insertdefault) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\Classes\General\MasterCollection.cs:line 467
+   at eAuction.AuctionStatusPartyWise._Bind_Control() in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 121
+   at eAuction.AuctionStatusPartyWise.Page_Load(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 45
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 23:05:07
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   at System.Convert.ToInt64(Object value)
+   at ASP.eauction_auctionstatuspartywise_aspx.__DataBinding__control59(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx:line 312
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at CallSite.Target(Closure , CallSite , Object )
+   at YCS.DBCommon.Bind_Control(Object control, DataTable dt, Boolean insertdefault, String dataValueField, String dataTextField) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\Classes\DB\DBCommon.cs:line 106
+   at CallSite.Target(Closure , CallSite , DBCommon , Object , DataTable , Boolean , String , String )
+   at YCS.MasterCollection.BindAuction(Int64 Firm_Id, Int64 Auction_Id, Int64 Status_Id, Int64 Role_Enum_Type_Id, Int64 Role_Id, Int64 Login_User_Id, Nullable`1 CurrentDateTime, Int64 Party_Id, Object control, Boolean insertdefault) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\Classes\General\MasterCollection.cs:line 467
+   at eAuction.AuctionStatusPartyWise._Bind_Control() in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 121
+   at eAuction.AuctionStatusPartyWise.Page_Load(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 45
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Auction Status   ,Screen Name :- ASP.eauction_auctionstatuspartywise_aspx  ,Date Time :- 03-10-2020 23:07:26
+Employee Name :- rr1  ,Role :- Customer
+=============
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   at System.Convert.ToInt64(Object value)
+   at ASP.eauction_auctionstatuspartywise_aspx.__DataBinding__control59(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx:line 312
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at CallSite.Target(Closure , CallSite , Object )
+   at YCS.DBCommon.Bind_Control(Object control, DataTable dt, Boolean insertdefault, String dataValueField, String dataTextField) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\Classes\DB\DBCommon.cs:line 106
+   at CallSite.Target(Closure , CallSite , DBCommon , Object , DataTable , Boolean , String , String )
+   at YCS.MasterCollection.BindAuction(Int64 Firm_Id, Int64 Auction_Id, Int64 Status_Id, Int64 Role_Enum_Type_Id, Int64 Role_Id, Int64 Login_User_Id, Nullable`1 CurrentDateTime, Int64 Party_Id, Object control, Boolean insertdefault) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\Classes\General\MasterCollection.cs:line 467
+   at eAuction.AuctionStatusPartyWise._Bind_Control() in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 121
+   at eAuction.AuctionStatusPartyWise.Page_Load(Object sender, EventArgs e) in E:\Shailendra\Auction Portal\Code\03-Oct-2020\eAuction\EAuction\AuctionStatusPartyWise.aspx.cs:line 45
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  

@@ -1,0 +1,459 @@
+﻿.display-inline {
+    display: inline-block;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-5 {
+    margin-top: 5px !important;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.textbox-search-filter {
+    margin-left: 83%;
+    margin-bottom: 1%;
+    width: 15%;
+}
+
+.padding-20 {
+    padding-left: 5px;
+}
+
+.padding-top-22 {
+    padding-top: 22px;
+}
+
+.padding-top-8 {
+    padding-top: 8px;
+}
+
+.padding-top-5 {
+    /*padding-top: 5px;*/
+}
+
+.padding-left-30 {
+    padding-left: 30px;
+}
+
+.padding-left-10 {
+    padding-left: 5px;
+}
+
+.gridwidth-50 {
+    width: 50%;
+}
+
+.header-center {
+    text-align: center;
+}
+
+.checkbox {
+    padding-left: 0px;
+}
+
+    .checkbox label {
+        display: inline-block;
+        position: relative;
+        padding-left: 0px;
+        margin-left: 22px;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+        .checkbox label::before {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            width: 17px;
+            height: 17px;
+            left: 0;
+            margin-left: -20px;
+            border: 1px solid #cccccc;
+            border-radius: 3px;
+            background-color: #fff;
+            -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+            -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+            transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+        }
+
+        .checkbox label::after {
+            display: inline-block;
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            left: 0;
+            top: 0;
+            margin-left: -20px;
+            padding-left: 3px;
+            padding-top: 1px;
+            font-size: 11px;
+            color: #555555;
+        }
+
+    .checkbox input[type="checkbox"] {
+        opacity: 0;
+    }
+
+        .checkbox input[type="checkbox"]:focus + label::before {
+            outline: thin dotted;
+            outline: 5px auto -webkit-focus-ring-color;
+            outline-offset: -2px;
+        }
+
+        .checkbox input[type="checkbox"]:checked + label::after {
+            font-family: 'Glyphicons Halflings';
+            content: "\e013";
+        }
+
+        .checkbox input[type="checkbox"]:disabled + label {
+            opacity: 0.65;
+        }
+
+            .checkbox input[type="checkbox"]:disabled + label::before {
+                background-color: #eeeeee;
+                cursor: not-allowed;
+            }
+
+    .checkbox.checkbox-circle label::before {
+        border-radius: 50%;
+    }
+
+    .checkbox.checkbox-inline {
+        margin-top: 0;
+    }
+
+.checkbox-primary input[type="checkbox"]:checked + label::before {
+    background-color: #428bca;
+    border-color: #428bca;
+}
+
+.checkbox-primary input[type="checkbox"]:checked + label::after {
+    color: #fff;
+}
+
+.checkbox-danger input[type="checkbox"]:checked + label::before {
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+.checkbox-danger input[type="checkbox"]:checked + label::after {
+    color: #fff;
+}
+
+.checkbox-info input[type="checkbox"]:checked + label::before {
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+}
+
+.checkbox-info input[type="checkbox"]:checked + label::after {
+    color: #fff;
+}
+
+.checkbox-warning input[type="checkbox"]:checked + label::before {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.checkbox-warning input[type="checkbox"]:checked + label::after {
+    color: #fff;
+}
+
+.checkbox-success input[type="checkbox"]:checked + label::before {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+
+.checkbox-success input[type="checkbox"]:checked + label::after {
+    color: #fff;
+}
+
+.modalPopBackground {
+    background-color: black;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+.modalPopUpPanel {
+    background-color: #FFFFFF;
+    width: 300px;
+    border: 3px solid #3c8dbc;
+    border-radius: 12px;
+    padding: 0;
+    height: 550px;
+    width: 1100px;
+}
+
+.modalPopUpHeader {
+    background-color: #3c8dbc;
+    height: 37px;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.modalPopUpBody {
+    padding: 10px 10px;
+    background: #fff;
+    color: #444;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.modalPopFooter {
+    padding: 6px;
+}
+
+.modalPopUpImageSize {
+    height: 470px;
+    width: 635px;
+}
+
+
+.modalPopUpImageSizeWithoutText {
+    height: 470px;
+    width: 635px;
+}
+
+.modalPopUpPanelWithoutText {
+    background-color: #FFFFFF;
+    width: 300px;
+    border: 3px solid #3c8dbc;
+    border-radius: 12px;
+    padding: 0;
+    height: 550px;
+    width: 660px;
+}
+
+.modalPopUpBodyWithoutText {
+    padding: 10px 10px;
+    background: #fff;
+    color: #444;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.col-lg-2_4 {
+    width: 20%;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.modalPopUpPanelWithText {
+    background-color: #FFFFFF;
+    width: 300px;
+    border: 3px solid #3c8dbc;
+    border-radius: 12px;
+    padding: 0;
+    height: 650px;
+    width: 1000px;
+}
+
+.top4 {
+    top: 4px !important;
+}
+
+.requiredvalidator {
+    color: red;
+}
+
+
+/* ----------- Scroll Bar CSS Start ----------- /*
+
+/* width */
+::-webkit-scrollbar {
+    height: auto;
+    width: auto;
+    max-width: 10px;
+    max-height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: -5px;
+}
+
+.textbox-uppercase {
+    text-transform: uppercase;
+}
+
+.form-control-Label {
+    display: block;
+    width: 100%;
+    /*
+      height: 34px;
+      line-height: 1.42857143;
+      padding: 6px 12px;
+  */
+    /*padding: 1px 4px;*/
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    /*border: 1px solid #ccc;
+  border-radius: 4px;*/
+    /*-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;*/
+}
+
+.aspNetDisabled.btn, .aspNetDisabled.btn:hover, .aspNetDisabled.btn:active, .aspNetDisabled.btn:focus {
+    background-color: #dddddd !important;
+    cursor: not-allowed;
+    border-color: #dddddd !important;
+    pointer-events: none;
+}
+
+.fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.fieldset {
+    padding: .35em .625em .75em;
+    margin: 10px 2px 0px 2px;
+    border: 1px solid silver;
+    background-color: #e7f1fe;
+}
+
+.legend {
+    margin-left: 20px;
+    width: auto;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: inherit;
+    color: #fff;
+    background-color: #034478;
+    border: 0;
+    border: 1px solid #e5e5e5;
+}
+
+.tab-StatusColorText {
+    font-weight: bold;
+    text-align: center;
+}
+
+.tab-StatusColor {
+}
+
+.tab-StatusPendingColor {
+    color: orange;
+}
+
+.tab-StatusPendingForApprovalColor {
+    color: #3bb4f3;
+}
+
+.tab-StatusApprovedColor {
+    color: green;
+}
+
+.tab-StatusRejectedColor {
+    color: red;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.ddlExtender {
+    overflow: auto !important;
+    /*top: 25px !important;*/
+    top: -72px !important;
+    left: 4px !important;
+    width: 99% !important;
+}
+
+option:hover {
+    background-color: #3079ed;
+    color: white;
+}
+
+.page_enabled, .page_disabled {
+    display: inline-block;
+    height: 25px;
+    min-width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #034478;
+}
+
+.page_enabled {
+    background-color: #eee;
+    color: #034478;
+}
+
+.page_disabled {
+    background-color: #034478;
+    color: white !important;
+}
+
+.grid-column-no-sort::after {
+    display: none !important;
+    background-image: none !important;
+}
+
+.grid-column-no-sort {
+    /*pointer-events: none !important;*/
+    cursor: default !important;
+    background-image: none !important;
+}
+
+.ddlheader {
+    background-color: transparent !important;
+    color: white !important;
+    margin-top: 15px !important;
+    padding: 0px !important;
+    border: transparent !important;
+}
+
+    .ddlheader option {
+        background-color: #034478 !important;
+        color: white !important;
+    }
+
+.controlDummyDisable {
+    background-color: #eee !important;
+    pointer-events: none !important;
+}

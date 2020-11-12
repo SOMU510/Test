@@ -1,0 +1,201 @@
+Menu Name :-Role Master   ,Screen Name :- ASP.eauction_rolemaster_aspx  ,Date Time :- 10/23/2020 11:55:09 AM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at eAuction.RoleMaster.arraylist()
+   at eAuction.RoleMaster.btnClear_Click(Object sender, EventArgs e)
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Party Master   ,Screen Name :- ASP.eauction_partymaster_aspx  ,Date Time :- 10/23/2020 12:34:52 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Trying to pass a table-valued parameter with 7 column(s) where the corresponding user-defined table type requires 6 column(s).
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.PartyMaster.Action(Object sender, String action, Int64 Action_Status_Id) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\EAuction\PartyMaster.aspx.cs:line 688
+   at eAuction.PartyMaster.lnkbtnSendToParty_Click(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\EAuction\PartyMaster.aspx.cs:line 801
+ClientConnectionId:46e456cd-9ec3-4c9d-95a7-01219a9008df
+Error Number:500,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Party Master   ,Screen Name :- ASP.eauction_partymaster_aspx  ,Date Time :- 10/23/2020 12:39:07 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Data.SqlClient.SqlException (0x80131904): Trying to pass a table-valued parameter with 7 column(s) where the corresponding user-defined table type requires 6 column(s).
+   at YCS.DataConnection.ExecuteNonQuery(String spname, List`1 pname) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\Classes\DB\DataConnection.cs:line 65
+   at eAuction.PartyMaster.Action(Object sender, String action, Int64 Action_Status_Id) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\EAuction\PartyMaster.aspx.cs:line 688
+   at eAuction.PartyMaster.lnkbtnSendToParty_Click(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\EAuction\PartyMaster.aspx.cs:line 801
+ClientConnectionId:46e456cd-9ec3-4c9d-95a7-01219a9008df
+Error Number:500,State:1,Class:16
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Conducted Auction   ,Screen Name :- ASP.eauction_conductedauction_aspx  ,Date Time :- 10/23/2020 2:21:06 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Auction_Id'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.eauction_conductedauction_aspx.__DataBinding__control82(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\EAuction\ConductedAuction.aspx:line 171
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at CallSite.Target(Closure , CallSite , Object )
+   at YCS.DBCommon.Bind_Control(Object control, DataTable dt, Boolean insertdefault, String dataValueField, String dataTextField) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\Classes\DB\DBCommon.cs:line 106
+   at CallSite.Target(Closure , CallSite , DBCommon , Object , DataTable , Boolean , String , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid6[T0,T1,T2,T3,T4,T5](CallSite site, T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5)
+   at YCS.MasterCollection.BindAuctionHighestBidItem(Int64 Auction_Party_Item_Bid_Id, Int64 Auction_Party_Link_Id, Int64 Auction_Item_Link_Id, Int64 Auction_Id, Int64 Status_Id, Int64 TopHighest, Object control, Boolean insertdefault) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\Classes\General\MasterCollection.cs:line 561
+   at eAuction.EAuction.ConductedAuction.lnkbtnViewHighestBid_Click(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\EAuction\ConductedAuction.aspx.cs:line 336
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Conducted Auction   ,Screen Name :- ASP.eauction_conductedauction_aspx  ,Date Time :- 10/23/2020 2:21:48 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Best_Bid'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.eauction_conductedauction_aspx.__DataBinding__control114(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\EAuction\ConductedAuction.aspx:line 189
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at CallSite.Target(Closure , CallSite , Object )
+   at YCS.DBCommon.Bind_Control(Object control, DataTable dt, Boolean insertdefault, String dataValueField, String dataTextField) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\Classes\DB\DBCommon.cs:line 106
+   at CallSite.Target(Closure , CallSite , DBCommon , Object , DataTable , Boolean , String , String )
+   at YCS.MasterCollection.BindAuctionHighestBidItem(Int64 Auction_Party_Item_Bid_Id, Int64 Auction_Party_Link_Id, Int64 Auction_Item_Link_Id, Int64 Auction_Id, Int64 Status_Id, Int64 TopHighest, Object control, Boolean insertdefault) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\Classes\General\MasterCollection.cs:line 561
+   at eAuction.EAuction.ConductedAuction.lnkbtnViewHighestBid_Click(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\EAuction\ConductedAuction.aspx.cs:line 336
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Conducted Auction   ,Screen Name :- ASP.eauction_conductedauction_aspx  ,Date Time :- 10/23/2020 2:22:22 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'My_Unit_Rate'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.eauction_conductedauction_aspx.__DataBinding__control121(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\EAuction\ConductedAuction.aspx:line 193
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at CallSite.Target(Closure , CallSite , Object )
+   at YCS.DBCommon.Bind_Control(Object control, DataTable dt, Boolean insertdefault, String dataValueField, String dataTextField) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\Classes\DB\DBCommon.cs:line 106
+   at CallSite.Target(Closure , CallSite , DBCommon , Object , DataTable , Boolean , String , String )
+   at YCS.MasterCollection.BindAuctionHighestBidItem(Int64 Auction_Party_Item_Bid_Id, Int64 Auction_Party_Link_Id, Int64 Auction_Item_Link_Id, Int64 Auction_Id, Int64 Status_Id, Int64 TopHighest, Object control, Boolean insertdefault) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\Classes\General\MasterCollection.cs:line 561
+   at eAuction.EAuction.ConductedAuction.lnkbtnViewHighestBid_Click(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\EAuction\ConductedAuction.aspx.cs:line 336
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Conducted Auction   ,Screen Name :- ASP.eauction_conductedauction_aspx  ,Date Time :- 10/23/2020 2:23:07 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Best_Bid'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.eauction_conductedauction_aspx.__DataBinding__control152(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\EAuction\ConductedAuction.aspx:line 232
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at CallSite.Target(Closure , CallSite , Object )
+   at YCS.DBCommon.Bind_Control(Object control, DataTable dt, Boolean insertdefault, String dataValueField, String dataTextField) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\Classes\DB\DBCommon.cs:line 106
+   at CallSite.Target(Closure , CallSite , DBCommon , Object , DataTable , Boolean , String , String )
+   at YCS.MasterCollection.BindAuctionHighestBidItem(Int64 Auction_Party_Item_Bid_Id, Int64 Auction_Party_Link_Id, Int64 Auction_Item_Link_Id, Int64 Auction_Id, Int64 Status_Id, Int64 TopHighest, Object control, Boolean insertdefault) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\Classes\General\MasterCollection.cs:line 561
+   at eAuction.EAuction.ConductedAuction.lnkbtnViewHighestBid_Click(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\EAuction\ConductedAuction.aspx.cs:line 336
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
+Menu Name :-Conducted Auction   ,Screen Name :- ASP.eauction_conductedauction_aspx  ,Date Time :- 10/23/2020 2:23:41 PM
+Employee Name :- Admin  ,Role :- Admin
+=============
+System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Best_Bid_Total'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.eauction_conductedauction_aspx.__DataBinding__control157(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\EAuction\ConductedAuction.aspx:line 238
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at CallSite.Target(Closure , CallSite , Object )
+   at YCS.DBCommon.Bind_Control(Object control, DataTable dt, Boolean insertdefault, String dataValueField, String dataTextField) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\Classes\DB\DBCommon.cs:line 106
+   at CallSite.Target(Closure , CallSite , DBCommon , Object , DataTable , Boolean , String , String )
+   at YCS.MasterCollection.BindAuctionHighestBidItem(Int64 Auction_Party_Item_Bid_Id, Int64 Auction_Party_Link_Id, Int64 Auction_Item_Link_Id, Int64 Auction_Id, Int64 Status_Id, Int64 TopHighest, Object control, Boolean insertdefault) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\Classes\General\MasterCollection.cs:line 561
+   at eAuction.EAuction.ConductedAuction.lnkbtnViewHighestBid_Click(Object sender, EventArgs e) in E:\Somu Work\2020 Auction\OCT 2020\Auction Code 23-Oct-2020\Code\eAuction\EAuction\ConductedAuction.aspx.cs:line 336
+==========================XXXXXXXXXXXXXXXXXXXXX==========================
+  
